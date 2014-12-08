@@ -1,4 +1,4 @@
 pxsydney
 ========
 
-microsite for sydey
+microsite for sydney
