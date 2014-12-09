@@ -1186,6 +1186,7 @@
 		$(window).load(function(){
 
 			$.stickyMenu();
+			smoothScroll.init();
 			$.sideMenu();
 			$.responsiveMenu();
 			$.backToTop(1000);

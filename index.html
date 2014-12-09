@@ -47,53 +47,7 @@
 
 <body class="sticky_menu">
 
-    <!--side menu-->
-    <button id="open_side_menu" class="icon_wrap_size_2 circle color_black">
-        <i class="icon-menu"></i>
-    </button>
-    <div id="side_menu">
-        <header class="m_bottom_30 d_table w_full">
-            <!--logo-->
-            <div class="d_table_cell half_column v_align_m">
-                <a href="index.html">
-                    <!-- <img src="images/logo_side.png" alt=""> -->
-                </a>
-            </div>
-            <!--close sidemenu button-->
-            <div class="d_table_cell half_column v_align_m t_align_r">
-                <button class="icon_wrap_size_2 circle color_grey_light_2 d_inline_m" id="close_side_menu">
-                    <i class="icon-cancel"></i>
-                </button>
-            </div>
-        </header>
-        <hr class="divider_type_4 m_bottom_20">
-        <!--searchform-->
-        <form role="search" class="m_bottom_20 relative type_2">
-            <input type="text" placeholder="Search" class="r_corners fw_light bg_light w_full">
-            <button class="color_grey_light color_purple_hover tr_all">
-                <i class="icon-search"></i>
-            </button>
-        </form>
-        <hr class="divider_type_4 m_bottom_25">
-        <!--main menu-->
-        <nav>
-            <ul class="side_main_menu fw_light">
-                <li class="has_sub_menu active m_bottom_10">
-                    <a href="index.html" class="d_block relative fs_large color_light_2 color_blue_hover">Home</a>
-                </li>
-                <li class="has_sub_menu m_bottom_10">
-                    <a href="#" class="d_block relative fs_large color_light_2 color_blue_hover">About</a>
-                </li>
-                <li class="has_sub_menu m_bottom_10">
-                    <a href="#" class="d_block relative fs_large color_light_2 color_blue_hover">Explore</a>
-                </li>
-                <li class="has_sub_menu m_bottom_10">
-                    <a href="#" class="d_block relative fs_large color_light_2 color_blue_hover">Contact Us</a>
-
-                </li>
-            </ul>
-        </nav>
-    </div>
+   
     <!--layout-->
     <div class="wide_layout bg_light">
         <!--header markup-->
@@ -151,27 +105,27 @@
                                 <nav role="navigation" class="d_inline_m d_xs_none m_xs_right_0 m_right_15 t_align_l m_xs_bottom_15">
                                     <ul class="hr_list main_menu fw_light">
                                         <li class="current container3d relative f_xs_none m_xs_bottom_5">
-                                            <a class="color_dark fs_large relative r_xs_corners" href="index.html">Home
+                                            <a class="color_dark fs_large relative r_xs_corners" data-scroll href="#home">Home
                                                     <i class="d_inline_m"></i>
                                                 </a>
                                             <!--sub menu-->
 
                                         </li>
                                         <li class="container3d relative f_xs_none m_xs_bottom_5">
-                                            <a class="color_dark fs_large relative r_xs_corners" href="#">About
+                                            <a class="color_dark fs_large relative r_xs_corners" data-scroll href="#about">About
                                                     <i class="d_inline_m"></i>
                                                 </a>
 
                                         </li>
                                         <li class="container3d relative f_xs_none m_xs_bottom_5">
-                                            <a class="color_dark fs_large relative r_xs_corners" href="#">Explore
+                                            <a class="color_dark fs_large relative r_xs_corners" data-scroll href="#explore">Explore
                                                     <i class="d_inline_m"></i>
                                                 </a>
                                             <!--sub menu-->
 
                                         </li>
                                         <li class="container3d relative f_xs_none m_xs_bottom_5">
-                                            <a class="color_dark fs_large relative r_xs_corners" href="#">Contact Us
+                                            <a class="color_dark fs_large relative r_xs_corners" data-scroll href="#contact">Contact Us
                                                     <i class="d_inline_m"></i>
                                                 </a>
                                             <!--sub menu-->
@@ -186,7 +140,7 @@
                 </div>
             </section>
         </header>
-
+        <a id="home"></a>
         <!--revolution slider-->
         <section class="relative w_full m_bottom_15">
             <div class="r_slider">
@@ -223,6 +177,7 @@
             </div>
         </section>
         <!--content-->
+        <a id="about"></a>
         <section class="section_offset bg_light_2 appear-animation fadeInUp appear-animation-visible" data-appear-animation="fadeInUp">
             <div class="container t_align_c">
                 <h3 class="color_dark fw_light m_bottom_15">Take a seat and immerse yourself Sydney’s world-class harbour views</h3>
@@ -231,6 +186,7 @@
         </section>
 
         <!--Sydney featured place-->
+        <a id="explore"></a>
         <section class="section_offset relative">
             <div class="container">
                 <h3 class="color_dark fw_light m_bottom_15 t_align_c" data-appear-animation="bounceInLeft">Explore Sydney</h3>
@@ -392,13 +348,14 @@
                         <p class="heading_4">Experience Sydney’s natural beauty and culture around Sydney Harbour and the historic Rocks.</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-4" data-appear-animation="fadeInUp" data-appear-animation-delay="150">
-                        <a href="#" id="get_started" class="button_type_4 r_corners d_inline_b color_blue tt_uppercase fs_large m_top_5 m_sm_top_25 tr_all">Contact Us Now</a>
+                        <a data-scroll href="#contact" id="get_started" class="button_type_4 r_corners d_inline_b color_blue tt_uppercase fs_large m_top_5 m_sm_top_25 tr_all">Contact Us Now</a>
                     </div>
                 </div>
             </div>
         </section>
         <hr class="divider_type_2">
         <!--footer-->
+        <a id="contact"></a>
         <footer role="contentinfo" class="bg_light_3" id="#footer_1">
             <!--top part-->
             <section class="footer_top_part">
@@ -478,6 +435,7 @@
     </button>
 
     <!--Libs-->
+
     <script src="plugins/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
     <script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
     <script src="plugins/jquery.appear.js"></script>
@@ -488,6 +446,7 @@
     <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
 
     <!--Theme Initializer-->
+    <script src="js/smooth-scroll.min.js"></script>
     <script src="js/theme.plugins.js"></script>
     <script src="js/theme.js"></script>
 </body>
