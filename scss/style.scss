@@ -524,6 +524,12 @@ mark,
 .tweet_time a{
 	color:#899096;
 }
+.dark_hover{
+	&:hover{
+		background-color:rgba(0,0,5,0.7);
+		border-bottom:#27AAE1 2px solid;
+	}
+}
 mark,
 .color_light,
 .social_icons a:hover,
@@ -774,7 +780,7 @@ input:not([type="submit"]).warning{
 table:not(.table_type_9) tr:hover,
 .categories_list ul a:hover,
 .sub_menu .current_click > a{
-	background:#f7f9f9;
+	background:#D2E8F2;
 }
 .bg_light_3,.category_link:hover .category_title,
 .thumbnails_container > ul > .active,
@@ -1938,6 +1944,7 @@ doesnotexist:-o-prefocus, .main_menu li:hover > .sub_menu,.dropdown:hover .sub_m
 .color_button:hover{
 	border-color:#363a3f;
 }
+
 .quantity > button{
 	width:29px;
 	height:33px;
@@ -2451,7 +2458,14 @@ i[class|="icon"]{
 
 hr{
 	height:1px;
-	background:#ecf0f1;
+	background:#27AAE1;
+}
+.bg_light{
+
+	.current{
+		background-color: rgba(0,0,1,0.6);
+		border-bottom:#27AAE1 solid 2px;
+	}
 }
 .bg_gradient,
 .divider_type_2,.gradient_line,#qLbar{
