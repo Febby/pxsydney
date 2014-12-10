@@ -250,6 +250,8 @@ input[type="radio"] + label:before{
 .m_left_15{
 	margin-left:15px;
 }
+.m_sydney{ margin-bottom:-24px;}
+.m_img{margin-bottom:-94px;}
 .m_bottom_0{
 	margin-bottom:0px !important;
 }
@@ -865,7 +867,9 @@ html{
 body{
 	font:400 16px/1.5em "Lato","sans-serif";
 	color:#606366;
-	background: #2c2b44;
+	// background: #2c2b44;
+	background: url("../images/sydneybg.jpg") no-repeat;
+	background-size: cover;
 	overflow-x:hidden;
 	background-attachment: fixed;
 }
@@ -2515,8 +2519,10 @@ hr{
 	opacity:0;
 }
 .section_offset{
-	padding:63px 0 67px;
+	padding:34px 0 67px;
+	//default value 63px 0 67px;
 }
+
 .section_offset_2{
 	padding:70px 0 60px;
 }
@@ -2538,6 +2544,9 @@ hr{
 	padding:130px 0;
 	max-height:none;
 }
+//adjust vids container
+
+
 .iframe_video_wrap{
 	width: 100%;
 	height: 0;
@@ -3898,8 +3907,34 @@ input[class*="_limit"]{
 
 ------------------------------------- */
 
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+.section_imagegallery{
+	padding-left:148px!important;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+.section_imagegallery{
+	padding-left:190px!important;
+}
+.syd_vid_container{
+	width:45%;
+}
+}
+
 /* slider layers fix*/
 @media only screen and (max-width:1600px){
+
+
+	.syd_vid_container{
+	width:50%;
+}
 	.slider_title_1{
 		font-size:6em;
 	}
@@ -3913,6 +3948,12 @@ input[class*="_limit"]{
 
 @media only screen and (max-width:1200px),only screen and (max-width:1200px) and (orientation: landscape){
 	/* scheme color */
+	.section_imagegallery{
+	padding-left:0!important;
+}
+	.syd_vid_container{
+	width:100%;
+}
 	.tabs_nav.type_3 .active a{
 		border-right-color:#41bedd !important;
 	}
