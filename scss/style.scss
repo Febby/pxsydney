@@ -3785,6 +3785,10 @@ input[class*="_limit"]{
 .footer_bottom_part{
 	padding:24px 0;
 	border-top:1px solid #cbd0d4;
+
+	p{
+		font-size: 0.8em;
+	}
 }
 
 /* -----------------------------------
@@ -3924,7 +3928,7 @@ and (min-width : 1824px) {
 	padding-left:190px!important;
 }
 .syd_vid_container{
-	width:45%;
+	width:50%;
 }
 }
 
