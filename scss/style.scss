@@ -528,8 +528,8 @@ mark,
 }
 .dark_hover{
 	&:hover{
-		background-color:rgba(0,0,5,0.5);
-		border-bottom:#27AAE1 2px solid;
+		background-color:rgba(0,0,5,0.2);
+		// border-bottom:#fff 1px solid;
 	}
 }
 mark,
@@ -1576,7 +1576,10 @@ doesnotexist:-o-prefocus, .main_menu li:hover > .sub_menu,.dropdown:hover .sub_m
 }
 .m_left_0,.hr_list > li:first-child{
 	margin-left:0;
+	background-color: rgba(255, 255, 255, 0.5);
 }
+//custom
+.m_left_0,.hr_list>li:nth-child(3){background-color: rgba(39, 170, 225,0.7);}
 .hr_list > li:last-child{
 	margin-right:0;
 }
