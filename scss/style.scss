@@ -528,7 +528,7 @@ mark,
 }
 .dark_hover{
 	&:hover{
-		background-color:rgba(0,0,5,0.7);
+		background-color:rgba(0,0,5,0.5);
 		border-bottom:#27AAE1 2px solid;
 	}
 }
@@ -1070,7 +1070,7 @@ blockquote > p:last-of-type:after{
 	padding-bottom:16px;
 }
 .main_menu.type_2 > li:first-child > a{
-	padding-left:0;
+	// padding-left:0;
 }
 .main_menu.type_2 > li > a:after{
 	display:none;
@@ -2465,7 +2465,7 @@ hr{
 	background:#27AAE1;
 }
 .bg_light{
-	background: rgba(0, 0, 0, 0.4)!important;	
+	background: rgba(0, 0, 0, 0.3)!important;	
 	.current{
 		background-color: rgba(0,0,1,0.6);
 		border-bottom:#27AAE1 solid 2px;
