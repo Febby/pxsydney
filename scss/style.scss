@@ -4409,12 +4409,12 @@ and (min-width : 1824px) {
 }
 @media only screen and (max-width:767px){
 	/* scheme color */
-	body{
-	background: url("../images/m-bg.jpg") no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position:center center;
-	}
+	// body{
+	// background: url("../images/m-bg.jpg") no-repeat;
+	// background-size: cover;
+	// background-attachment: fixed;
+	// background-position:center center;
+	// }
 	.tabs_nav .active a{
 		border-right-color:#41bedd !important;
 	}
