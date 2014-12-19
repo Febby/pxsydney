@@ -3,7 +3,7 @@
             $('html').show();
             $("body").queryLoader2({
             backgroundColor: '#fff',
-            barColor: '#60C4DD',
+            barColor: '#056972',
             barHeight: 4,
             percentage: true,
             deepSearch: true,

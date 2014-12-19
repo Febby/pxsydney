@@ -26,6 +26,7 @@
 
 ------------------------------------- */
 @import "reset";
+@import url("//fonts.googleapis.com/css?family=Pacifico");
 @import "fontello";
 
 /* -----------------------------------
@@ -48,11 +49,11 @@
 }
 ::-webkit-scrollbar{
 	width:10px;
-	background:#f7f9f9;
+	background:#056972;
 }
 ::-webkit-scrollbar-thumb{
-	background:-webkit-gradient(linear,left top,right bottom,from(#70269f),to(#35eef6));
-	background:linear-gradient(top,#70269f,#35eef6);
+	background:-webkit-gradient(linear,left top,right bottom,from(#056972),to(#5EA5A3));
+	background:linear-gradient(top,#056972,#5EA5A3);
 }
 ::-webkit-input-placeholder{
 	-webkit-transition:text-indent .5s ease,color .5s ease;
@@ -782,7 +783,7 @@ input:not([type="submit"]).warning{
 table:not(.table_type_9) tr:hover,
 .categories_list ul a:hover,
 .sub_menu .current_click > a{
-	background:#D2E8F2;
+	background:rgba(5, 105, 114,0.7);
 }
 .bg_light_3,.category_link:hover .category_title,
 .thumbnails_container > ul > .active,
@@ -868,7 +869,7 @@ body{
 	font:400 16px/1.5em "Lato","sans-serif";
 	color:#606366;
 	// background: #2c2b44;
-	background: url("../images/sydneybg.jpg") no-repeat;
+	background: url("../images/sydneybg-ctc1.jpg") no-repeat;
 	background-size: cover;
 	overflow-x:hidden;
 	background-attachment: fixed;
