@@ -807,6 +807,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-o-animation-name: pulse;
 	animation-name: pulse;
 }
+.option{
+	-webkit-animation-duration: 3s;  
+    -webkit-animation-delay: 0.1s;  
+    -webkit-animation-iteration-count: 5; 
+}
 
 @-webkit-keyframes fadeIn {
 	0% {
