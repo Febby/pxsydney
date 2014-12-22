@@ -10,3 +10,8 @@
             minimumTime: 1000
             });
             });
+
+$(".ctc-section").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
