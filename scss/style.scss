@@ -1299,6 +1299,10 @@ doesnotexist:-o-prefocus, .main_menu li:hover > .sub_menu,.dropdown:hover .sub_m
 	background-color:rgba(255,255,255,.2);
 	opacity:1;
 }
+
+.jackbox-social {
+    display: none!important;
+}
 .caption iframe{
 	-webkit-box-shadow:0 0 18px 0 rgba(0,0,0,.25);
 	-moz-box-shadow:0 0 18px 0 rgba(0,0,0,.25);
