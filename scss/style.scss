@@ -423,9 +423,7 @@ input[type="checkbox"] + label:before,
 	-moz-border-radius:4px;
 	border-radius:4px;
 	//add shadow
-	-webkit-box-shadow: 0 10px 6px -6px #3A3939;
-	   -moz-box-shadow: 0 10px 6px -6px #3A3939;
-	        box-shadow: 0 10px 6px -6px #3A3939;
+	       box-shadow: 1px 7px 21px -9px #036C72;
 }
 .r_corners_2{
 	-webkit-border-radius:7px;
@@ -2157,37 +2155,31 @@ top: -20px;
 // .three_columns th{
 // 	width:33.3333%;
 // }
-// .p_table{
-// 	padding:35px 19px 39px;
-// 	-webkit-transition:background-color .5s ease,border-color .5s ease;
-// 	-moz-transition:background-color .5s ease,border-color .5s ease;
-// 	-o-transition:background-color .5s ease,border-color .5s ease;
-// 	transition:background-color .5s ease,border-color .5s ease;
-// }
-// .p_table:hover,
-// .p_table.active{
-// 	margin:-10px -10px 0;
-// 	padding:36px 29px 50px;
-// }
-// .border_light{
-// 	border:1px solid #fff;
-// }
-// .pt_icon{
-// 	width:100px;
-// 	height:100px;
-// 	font-size:39px;
-// 	border:1px solid transparent;
-// }
-// .pt_title{
-// 	font-size:1.375em;
-// 	padding-bottom:2px;
-// }
-// .pt_icon,.pt_title,.pt_price,.price_icon{
-// 	-webkit-transition:color .5s ease;
-// 	-moz-transition:color .5s ease;
-// 	-o-transition:color .5s ease;
-// 	transition:color .5s ease;
-// }
+.p_table{
+	padding:35px 19px 39px;
+	transition:all .2s linear,border-color .3s ease;
+}
+.p_table:hover,
+.p_table.active{
+	margin:-10px -10px 0;
+	padding:36px 29px 50px;
+}
+.border_light{
+	border:1px solid #fff;
+}
+.pt_icon{
+	width:100px;
+	height:100px;
+	font-size:39px;
+	border:1px solid transparent;
+}
+.pt_title{
+	font-size:1.375em;
+	padding-bottom:2px;
+}
+.pt_icon,.pt_title,.pt_price,.price_icon{
+	transition:all .2s linear;
+}
 // .pt_time{
 // 	padding-bottom:3px;	
 // }
@@ -2195,10 +2187,10 @@ top: -20px;
 // 	font-size:1.8em;
 // 	margin-top:13px;
 // }
-// .p_table:hover .pt_icon,
-// .p_table.active .pt_icon{
-// 	font-size:50px;
-// }
+.p_table:hover .pt_icon,
+.p_table.active .pt_icon{
+	font-size:3em;
+}
 // .calendar{
 // 	border-collapse: separate;
 // }
